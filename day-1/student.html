@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information</title>
+</head>
+<body>
+    <h1>Student Information</h1>
+    <form id="studentForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        
+        <label for="rollno">Roll No:</label>
+        <input type="text" id="rollno" name="rollno"><br><br>
+        
+        <label for="add">Address:</label>
+        <input type="text" id="add" name="add"><br><br>
+        
+        <label for="year">Year:</label>
+        <input type="number" id="year" name="year"><br><br>
+        
+        <label for="mark1">Mark 1:</label>
+        <input type="number" id="mark1" name="mark1"><br><br>
+        
+        <label for="mark2">Mark 2:</label>
+        <input type="number" id="mark2" name="mark2"><br><br>
+        
+        <label for="mark3">Mark 3:</label>
+        <input type="number" id="mark3" name="mark3"><br><br>
+        
+        <button type="button" onclick="displayStudent()">Submit</button>
+        <button type="button" onclick="addNewStudent()">Add New Student</button>
+    </form>
+    
+    <h2>Student Details</h2>
+    <div id="studentDetails"></div>
+    <script>
+
+class Student {
+    constructor(name, rollno, add, year, mark1, mark2, mark3) {
+        this.name = name;
+        this.rollno = rollno;
+        this.add = add;
+        this.year = year;
+        this.mark1 = mark1;
+        this.mark2 = mark2;
+        this.mark3 = mark3;
+    }
+
+    getAverage() {
+        return ((this.mark1 + this.mark2 + this.mark3) / 3).toFixed(2);
+    }
+}
+
+const displayStudent = () => {
+    const name = document.getElementById('name').value;
+    const rollno = document.getElementById('rollno').value;
+    const add = document.getElementById('add').value;
+    const year = document.getElementById('year').value;
+    const mark1 = parseFloat(document.getElementById('mark1').value);
+    const mark2 = parseFloat(document.getElementById('mark2').value);
+    const mark3 = parseFloat(document.getElementById('mark3').value);
+
+    const student = new Student(name, rollno, add, year, mark1, mark2, mark3);
+
+    const studentDetails = document.getElementById('studentDetails');
+    const newStudentDetails = document.createElement('p');
+    newStudentDetails.innerText = 
+        `Name: ${student.name}\nRoll No: ${student.rollno}\nAddress: ${student.add}\nYear: ${student.year}\nAverage Marks: ${student.getAverage()}`;
+    
+    studentDetails.appendChild(newStudentDetails);
+};
+
+const addNewStudent = () => {
+    document.getElementById('studentForm').reset();
+};
+
+    </script>
+</body>
+</html>
