@@ -21,7 +21,7 @@ function Header() {
 
   return (
     <header style={styles.header}>
-      <h1>My Client's Website</h1>
+      <h1>Client's Website</h1>
       <nav style={styles.nav}>
         <a href="#about" style={styles.navItem}>About</a>
         <a href="#services" style={styles.navItem}>Services</a>
