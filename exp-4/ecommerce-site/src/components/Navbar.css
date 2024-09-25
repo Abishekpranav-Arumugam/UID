@@ -1,0 +1,15 @@
+/* Add a CSS rule to center the nav items */
+.navbar-nav {
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  /* Add custom spacing between nav items */
+.navbar-nav .nav-item {
+    margin-right: 50px; /* Adjust spacing here */
+  }
+  
+  .navbar-nav .nav-item:last-child {
+    margin-right: 0; /* Remove the margin for the last item */
+  }
+  

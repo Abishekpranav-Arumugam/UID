@@ -1,0 +1,6 @@
+.carousel-img {
+    width: 100%; /* Ensure it takes up the full width of the carousel */
+    height: 680px; /* Set a fixed height for all images */
+    object-fit:none; /* Ensures the image covers the area while maintaining its aspect ratio */
+  }
+  
