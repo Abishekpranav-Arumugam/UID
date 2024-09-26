@@ -1,11 +1,7 @@
 ### Output
 
 
-
-
-![Exp-9](https://github.com/user-attachments/assets/395aba7b-7485-4685-9abe-492b86fe1ad7)
-
-
+![exp-9](https://github.com/user-attachments/assets/d9ae84de-c612-454f-b395-050a7c6f0f0a)
 
 
 
