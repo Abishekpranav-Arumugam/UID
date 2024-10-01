@@ -1,3 +1,10 @@
+### Output
+
+
+![exp-9](https://github.com/user-attachments/assets/d9ae84de-c612-454f-b395-050a7c6f0f0a)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
