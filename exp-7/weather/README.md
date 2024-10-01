@@ -1,3 +1,9 @@
+### Output
+
+
+![Exp-7](https://github.com/user-attachments/assets/fe14b996-4f57-4993-baa0-835e4a20906e)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
