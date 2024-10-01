@@ -1,0 +1,27 @@
+.weather-container {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    display: inline-block;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .weather-container h2 {
+    margin-bottom: 10px;
+  }
+  
+  .weather-container img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .weather-container .description {
+    text-transform: capitalize;
+    margin-bottom: 10px;
+  }
+  
+  .weather-container p {
+    margin: 5px 0;
+  }
+  
