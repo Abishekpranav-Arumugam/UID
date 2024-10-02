@@ -1,3 +1,13 @@
+### Output
+
+![exp-10(1)](https://github.com/user-attachments/assets/7b03e3ae-f9d6-4fea-ac73-46d750f711f5)
+
+![exp-10(2)](https://github.com/user-attachments/assets/861e2256-f174-4118-8804-464e4873bd0f)
+
+![exp-10(3)](https://github.com/user-attachments/assets/817ab57f-414b-44fd-888a-42e4c9b62084)
+
+![exp-10(4)](https://github.com/user-attachments/assets/507c4d4a-ce2f-4d8d-8809-3b388bfcfc08)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
