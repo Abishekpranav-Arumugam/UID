@@ -1,5 +1,18 @@
-# Getting Started with Create React App
+### Output
 
+![exp-10(1)](https://github.com/user-attachments/assets/0dd6954e-f35a-4de3-9099-20bdb6c8e920)
+
+
+![exp-10(2)](https://github.com/user-attachments/assets/0ab95c3c-4afe-4041-a1d5-da3f41dbecfb)
+
+
+![exp-10(3)](https://github.com/user-attachments/assets/071b98e1-ed83-464a-a8f0-8c2ac0e6122e)
+
+
+![exp-10(4)](https://github.com/user-attachments/assets/05e70bc5-7251-40cf-b7a9-db5afba0a38e)
+
+
+# Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
